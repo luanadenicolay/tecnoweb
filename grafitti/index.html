@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="design.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grafitti</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+ </head>
+ <div class="main-container">
+  <!-- Título principal -->
+  <div class="container text-center">
+    <h1 class="color">Grafitti</h1>
+  </div>
+<!--JUEGO-->
+     <div class="text-center my-4">
+     <button type="button" class="btn btn-primary color" data-bs-toggle="modal" data-bs-target="#exampleModal">
+     JUGAR!
+     </button>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-fullscreen-xxl-down">
+      <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe src="tpfinalparte2/index.html" frameborder="0" width="700" height="500"></iframe>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+
+ <!-- Cards con información -->
+ <div class="row align-items-start py-4">
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+      <img src="img/cortazar.jpg" class="card-img-top" alt="Cortazar">
+      <div class="card-body">
+        <h5 class="card-title">Julio Cortazar</h5>
+        <p class="card-text">Cortazar, autor de "Grafitti" fue un escritor y profesor Argentino</p>
+        <a href="https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/cortazar_julio.htm" class="card-link">Biografía</a>
+        <a href="https://www.infobae.com/cultura/2024/08/26/cuales-son-las-obras-mas-importantes-de-julio-cortazar/" class="card-link">Obras más importantes</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+      <img src="img/imagen0.jpg" class="card-img-top" alt="Juego">
+      <div class="card-body">
+        <h5 class="card-title">JUEGO</h5>
+        <p class="card-text">Aquí están las imágenes que utilizamos para crear nuestra historia gráfica y juego!</p>
+        <a href="#carouselExampleCaptions" class="card-link">Ver</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Botones de navegación -->
+<div class="d-grid gap-2 mb-4">
+  <a href="#cuento" class="btn btn-primary">Datos sobre nuestro juego</a>
+  <a href="#historiadegrafitti" class="btn btn-primary">Historia de Grafitti</a>
+</div>
+
+<!-- Carrusel de imágenes -->
+<div id="carouselExampleCaptions" class="carousel slide py-4">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/imagen0.jpg" class="d-block w-100" alt="Imagen 0">
+    </div>
+    <div class="carousel-item">
+      <img src="img/imagen1.jpg" class="d-block w-100" alt="Imagen 1">
+    </div>
+    <div class="carousel-item">
+      <img src="img/imagen2.jpg" class="d-block w-100" alt="Imagen 2">
+    </div>
+    <div class="carousel-item">
+      <img src="img/imagen3.jpg" class="d-block w-100" alt="Imagen 3">
+    </div>
+    <div class="carousel-item">
+      <img src="img/imagen4.jpg" class="d-block w-100" alt="Imagen 4">
+    </div>
+    <div class="carousel-item">
+      <img src="img/imagen5.jpg" class="d-block w-100" alt="Imagen 5">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Información adicional -->
+<div class="info-box">
+  <h1 id="cuento" class="text-center">Datos sobre nuestro juego</h1>
+  <p>En nuestro juego el objetivo es que el protagonista atrape 10 latas de grafitti antes de que se acabe el tiempo para poder realizar el próximo mural. ¡Si crees que eres capaz, pruébalo jugando!</p>
+</div>
+
+<div class="info-box">
+  <h1 id="historiadegrafitti" class="text-center">Historia de Grafitti</h1>
+  <p>El cuento, ambientado en un contexto de opresión política y censura, describe una forma de comunicación secreta entre dos personas a través de dibujos hechos con tiza en los muros de la ciudad.</p>
+   <p> Los protagonistas, que nunca se conocen personalmente, se expresan mediante graffitis cargados de creatividad y emoción, desarrollando un diálogo visual que se convierte en una forma de resistencia frente a la represión. A medida que los días pasan, los dibujos evolucionan y se entrelazan, mostrando una conexión profunda entre los artistas anónimos. Aunque el riesgo de ser capturados es constante, ambos continúan creando, desafiando la prohibición y utilizando el arte como un lenguaje clandestino.</p> 
+    <p > El cuento destaca la importancia del arte como medio de comunicación y resistencia, enfatizando la humanidad y el deseo de conexión en medio de un ambiente hostil. La historia concluye dejando en el aire una mezcla de esperanza y melancolía, ya que aunque la comunicación se interrumpe, el impacto de estos actos creativos permanece.</p>
+</div>
+<h1 style="text-align: center">Diagrama de flujo</h1>
+<div class="card" style="width: 20rem;">
+
+  <div class="card-body">
+    <p class="card-text">Este es nuestro diagrama de flujo! el cual usamos para realizar nuestra aventura gráfica y nuestro juego!</p>
+    <a href="https://drive.google.com/file/d/1U5SsdGbQ9hvhdpMY1fYkNJk0jDH1GAIs/view?usp=sharing">ver</a>
+
+  </div>
+</div>
+
+
+<h1 style="text-align: center">Integrantes</h1>
+<div class="d-flex justify-content-center">  
+
+  <div class="card m-2" style="width: 20rem;">
+    <img src="img/lu.jpg" alt="Card example image">
+    <div class="card-body">
+      <h4 class="card-title">Luana De Nicolay</h4>
+      <p class="card-text">Hola soy lu, me gusta mucho jugar al voley e ir a la cancha con mi familia.</p>
+    </div>
+  </div>
+  
+  <div class="card m-2" style="width: 20rem;">
+  
+    <img src="img/ampi.jpg" alt="Card example image">
+    <div class="card-body">
+      <h4 class="card-title">Amparo Alonso</h4>
+      <p class="card-text">Hola soy Ampi, soy de Coronel Brandsen. Me gusta mucho dormir la siesta y escuchar música</p>
+    </div>
+  </div>
+</div>
+
+</div>
+     
+
+     
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     </body>
+
+</html>

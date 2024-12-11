@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sedgwick+Ave+Display&display=swap');
+
+body{
+    background: linear-gradient(90deg, #5abef8, #7cdff8); 
+}
+h1{
+    font: sedgwick-ave-display-regular;
+    font-family: "Sedgwick Ave Display", cursive;
+}
+
+.color{
+    background-color: rgb(31, 209, 200) !important;
+    color: white;
+    border: none;
+}
+.btn-primary{
+    background-color: rgb(31, 209, 200) !important;
+    color: white;
+    border: none; 
+}
+
+div{
+
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.textos{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.botones{
+background-color: rgb(92, 81, 141);
+color: white;
+border: 1px solid rgb(92, 81, 141);
+}
+.info-box {
+    background-color: #f8f9fa; /* Color de fondo */
+    border: 2px solid #007bff; /* Borde azul */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    margin: 15px 0; /* Separación con otros elementos */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+ }
+ 
+ .main-container {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 2px solid #007bff; /* Borde azul */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    margin: 20px auto; /* Centrado */
+    max-width: 1200px; /* Limita el ancho */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+ 
+
